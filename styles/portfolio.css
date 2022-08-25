@@ -1,10 +1,36 @@
+:root {
+    --main-color: #f7e8f6;
+    --buttom-color: #bd83ce;
+    --heading-font-famili: 'Philosopher', sans-serif;
+}
+h1,
+h2,
+h3 {
+    font-family: var(--heading-font-famili);
+}
 h1 {
-    color: cornflowerblue;
-    font-family: 'Philosopher', sans-serif;
+    font-size: 96px; 
 }
 h2 {
-    font-family: 'Philosopher', sans-serif;
+    font-size: 28px;
+    line-height: 2;
 }
-h3 {
-    font-family: 'Philosopher', sans-serif;
+.header-name {
+    background-color: var(--main-color);
+    text-align: center;
+    padding: 160px 20px;
+}
+.header-name p {
+    font-family: var(--heading-font-famili);
+    font-size: 36px;  
+    font-weight: bold;
+    margin: 0;
+}
+.btn-branding {
+    background: var(--buttom-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
 }
