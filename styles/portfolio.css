@@ -1,7 +1,11 @@
 :root {
-    --main-color: #f7e8f6;
+    --basic-color: #f3e2ef;
+    --main-color: #fbf4fa;
     --buttom-color: #bd83ce;
     --heading-font-famili: 'Philosopher', sans-serif;
+}
+body {
+    font-family: var(--heading-font-famili);
 }
 h1,
 h2,
@@ -15,13 +19,19 @@ h2 {
     font-size: 28px;
     line-height: 2;
 }
+h3 {
+    font-size: 64px;
+}
+p {
+    font-size: 16px;
+    line-height: 30px;
+}
 .header-name {
-    background-color: var(--main-color);
+    background-color: var(--basic-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 120px 10px;
 }
 .header-name p {
-    font-family: var(--heading-font-famili);
     font-size: 36px;  
     font-weight: bold;
     margin: 0;
@@ -33,4 +43,37 @@ h2 {
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+}
+.first-projects {
+    background: var(--main-color);
+}
+.text-center {
+    text-align: center;
+    font-size: 28px;
+}
+.btn-branding-outline {
+    border: 1px solid var(--buttom-color);
+    border-radius: 4px;
+    color: var(--buttom-color);
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+.description-project {
+    padding: 0 50px;
+}
+@media (max-width: 960px) {
+    h1{
+        font-size: 55px;
+    }
+    h3 {
+        font-size: 42px;
+    }
+    .description-project {
+        padding: 0;
+        text-align: center;
+    }
+    .header-name {
+        padding: 60px 10px;
+    }
 }
