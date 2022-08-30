@@ -93,10 +93,11 @@ nav li.active a {
 .description-project {
     padding: 0 50px;
 }
-
+.content-container {
+    margin: 30px;
+}
 .content {
-    padding: 30px;
-    margin: 5px 0px 5px;
+   padding: 15px 10px;
 }
 .content img {
     border-radius: 40px;
