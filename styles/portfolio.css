@@ -15,7 +15,7 @@ h3 {
 h1 {
     font-size: 96px; 
 }
-.about-page h1 {
+.content h1 {
     font-size: 64px;
 }
 h2 {
@@ -50,9 +50,12 @@ p {
 .first-projects {
     background: var(--main-color);
 }
+.first-projects p {
+    font-size: 28px;
+}
 .text-center {
     text-align: center;
-    font-size: 28px;
+    
 }
 .btn-branding-outline {
     border: 1px solid var(--buttom-color);
@@ -66,13 +69,19 @@ p {
     padding: 0 50px;
 }
 
-.about-page {
+.content {
     padding: 80px;
-    margin: 20px 0px 10px;
+    margin: 5px 0px 5px;
 }
-.about-page img {
+.content img {
     border-radius: 40px;
     box-shadow: 10px 10px 5px #f5f2f2;
+}
+.content h3 {
+    font-size: 34px;
+}
+.weather {
+    text-align: center;
 }
 
 
@@ -80,7 +89,7 @@ p {
     h1{
         font-size: 55px;
     }
-    .about-page h1 {
+    .content h1 {
         font-size: 42px;
     }
     h3 {
@@ -93,7 +102,7 @@ p {
     .header-name {
         padding: 60px 10px;
     }
-    .about-page {
+    .content {
         padding: 0px;
         text-align: center;
     }
