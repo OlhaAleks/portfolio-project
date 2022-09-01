@@ -23,3 +23,27 @@
             </ul>
         </nav>
     </div>
+
+nav {
+    padding: 5px 0;
+}
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 80px;
+    margin-left: 15px;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    opacity: 80%;
+    transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+    color: var(--buttom-color);
+}

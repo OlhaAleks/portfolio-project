@@ -25,32 +25,16 @@ h2 {
 h3 {
     font-size: 64px;
 }
+h4 {
+    font-size: 54px;
+}
 p {
     font-size: 16px;
     line-height: 30px;
 }
-nav {
-    padding: 5px 0;
-}
-nav li {
-    display: inline;
-    list-style: none;
-    line-height: 80px;
-    margin-left: 15px;
-}
-nav ul {
-    padding: 0;
-    margin: 0;
-}
-nav a {
-    text-decoration: none;
-    color: black;
-    opacity: 80%;
-    transition: all 100ms ease-in-out;
-}
-nav a:hover,
-nav li.active a {
-    color: var(--buttom-color);
+.navbar {
+    min-height: 95px;
+    padding: 0 20px;
 }
  
 .header-name {
@@ -117,8 +101,27 @@ nav li.active a {
     max-width: 80px;
     opacity: 80%;
     border-radius: 5px 20px;
+    box-shadow: 5px 5px 2px #f5f2f2;
 }
+.link-footer {
+    font-size: 24px;
+    color: var(--buttom-color);
+    margin: 0 40px;
+    padding: 10px 17px;
+    background: var(--basic-color);
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+.link-footer:hover {
+    color: var(--main-color);
+    background: var(--buttom-color);
 
+}
+.contact-box {
+    background: var(--basic-color);
+    padding: 30px 60px;
+    border-radius: 10px;
+}
 
 @media (max-width: 960px) {
     h1{
@@ -130,6 +133,9 @@ nav li.active a {
     h3 {
         font-size: 42px;
     }
+    h4 {
+        font-size: 36px;
+    }
     .description-project {
         padding: 0;
         text-align: center;
@@ -140,5 +146,8 @@ nav li.active a {
     .content {
         padding: 0px;
         text-align: center;
+    }
+    .contact-box {
+        padding: 30px;
     }
 }
