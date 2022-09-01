@@ -13,7 +13,7 @@ h3 {
     font-family: var(--heading-font-famili);
 }
 h1 {
-    font-size: 96px; 
+    font-size: 80px; 
 }
 .content h1 {
     font-size: 64px;
@@ -122,6 +122,13 @@ p {
     padding: 30px 60px;
     border-radius: 10px;
 }
+.link-contactpage {
+    color: var(--buttom-color);
+}
+.contact-reference {
+color: black;
+text-decoration: none;
+}
 
 @media (max-width: 960px) {
     h1{
@@ -146,8 +153,5 @@ p {
     .content {
         padding: 0px;
         text-align: center;
-    }
-    .contact-box {
-        padding: 30px;
     }
 }
